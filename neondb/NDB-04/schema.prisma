@@ -1,0 +1,30 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+/// This table contains check constraints and requires additional setup for migrations. Visit https://pris.ly/d/check-constraints for more info.
+model claims {
+  claim_id   Int       @id @default(autoincrement())
+  policy_id  Int?
+  claim_date DateTime? @db.Date
+  amount     Decimal?  @db.Decimal(10, 2)
+  status     String?   @db.VarChar(20)
+  policy     policy?   @relation(fields: [policy_id], references: [policy_id], onDelete: NoAction, onUpdate: NoAction)
+}
+
+/// This table contains check constraints and requires additional setup for migrations. Visit https://pris.ly/d/check-constraints for more info.
+model policy {
+  policy_id   Int       @id @default(autoincrement())
+  holder_name String?   @db.VarChar(100)
+  policy_type String?   @db.VarChar(10)
+  premium     Decimal?  @db.Decimal(10, 2)
+  start_date  DateTime? @db.Date
+  is_active   Boolean?
+  claims      claims[]
+  agent_id String?
+}
