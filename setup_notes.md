@@ -5,5 +5,7 @@ Notebook output showing hello, spark range function, and showing the version of 
 
 
 Bronze in catalog
+
+  
 <img width="374" height="114" alt="image" src="https://github.com/user-attachments/assets/7e17dbd6-3b29-4714-9b05-abe3f7070294" />
 
