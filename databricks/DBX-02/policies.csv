@@ -1,0 +1,11 @@
+policy_id,customer_name,policy_type,start_date,premium
+1001,Alice Johnson,Auto,2024-01-01,500
+1002,Bob Smith,Home,2024-01-31,1200
+1003,Charlie Lee,Life,2024-03-01,800
+1004,Diana Ross,Auto,2024-03-31,450
+1005,Ethan Hunt,Health,2024-04-30,600
+1006,Fiona Green,Home,2024-05-30,1100
+1007,George White,Auto,2024-06-29,550
+1008,Hannah Brown,Life,2024-07-29,900
+1009,Ian Black,Health,2024-08-28,650
+1010,Julia Adams,Auto,2024-09-27,480
