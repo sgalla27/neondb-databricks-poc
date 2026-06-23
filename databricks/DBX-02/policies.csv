@@ -1,11 +1,12 @@
-policy_id,customer_name,policy_type,start_date,premium
-1001,Alice Johnson,Auto,2024-01-01,500
-1002,Bob Smith,Home,2024-01-31,1200
-1003,Charlie Lee,Life,2024-03-01,800
-1004,Diana Ross,Auto,2024-03-31,450
-1005,Ethan Hunt,Health,2024-04-30,600
-1006,Fiona Green,Home,2024-05-30,1100
-1007,George White,Auto,2024-06-29,550
-1008,Hannah Brown,Life,2024-07-29,900
-1009,Ian Black,Health,2024-08-28,650
-1010,Julia Adams,Auto,2024-09-27,480
+policy_id,customer_name,policy_type,start_date,premium,status
+1,John Doe,AUTO,2024-01-01,500.00,active
+2,Jane Smith,HOME,2024-02-15,1200.00,active
+3,Bob Lee,LIFE,2024-03-10,800.00,inactive
+4,Alice Brown,AUTO,2024-04-05,450.00,active
+5,Tom White,HOME,2024-05-20,1500.00,Active
+6,Emma Davis,LIFE,2024-06-18,950.00,INACTIVE
+7,Liam Wilson,AUTO,2024-07-22,600.00,active
+8,Olivia Taylor,HOME,2024-08-30,1100.00,active
+9,Noah Martin,LIFE,2024-09-12,700.00,active
+10,Ava Thompson,AUTO,2024-10-01,480.00,active
+``
