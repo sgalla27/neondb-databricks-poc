@@ -9,4 +9,3 @@ policy_id,customer_name,policy_type,start_date,premium,status
 8,Olivia Taylor,HOME,2024-08-30,1100.00,active
 9,Noah Martin,LIFE,2024-09-12,700.00,active
 10,Ava Thompson,AUTO,2024-10-01,480.00,active
-``
