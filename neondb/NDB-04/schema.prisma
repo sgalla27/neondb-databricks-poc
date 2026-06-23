@@ -26,5 +26,4 @@ model policy {
   start_date  DateTime? @db.Date
   is_active   Boolean?
   claims      claims[]
-  agent_id String?
 }
